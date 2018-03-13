@@ -213,7 +213,11 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9J4mTvrWEeenCKdSVeczSw"/>
         </children>
         <element xmi:type="uml:DataType" href="UML.uml#_9J3YIPrWEeenCKdSVeczSw"/>
+<<<<<<< Updated upstream
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9J4mQfrWEeenCKdSVeczSw" x="765" y="105" width="99" height="132"/>
+=======
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9J4mQfrWEeenCKdSVeczSw" x="659" y="275"/>
+>>>>>>> Stashed changes
       </children>
       <children xmi:type="notation:Shape" xmi:id="_XwB0sBCfEeikg99Zrff8Ig" type="Class_Shape_CN">
         <children xmi:type="notation:DecorationNode" xmi:id="_XwCbwBCfEeikg99Zrff8Ig" type="Class_NameLabel_CN"/>
@@ -239,6 +243,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XwDC2RCfEeikg99Zrff8Ig"/>
         </children>
         <element xmi:type="uml:Class" href="UML.uml#_Xv4DsBCfEeikg99Zrff8Ig"/>
+<<<<<<< Updated upstream
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XwB0sRCfEeikg99Zrff8Ig" x="765"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_NrqCsCB3Eei0q_R4ByErmQ" type="Class_Shape_CN">
@@ -266,6 +271,9 @@
         </children>
         <element xmi:type="uml:Class" href="UML.uml#_NrbZMCB3Eei0q_R4ByErmQ"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NrqCsSB3Eei0q_R4ByErmQ" x="762" y="254" width="100" height="136"/>
+=======
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XwB0sRCfEeikg99Zrff8Ig" x="680" y="49"/>
+>>>>>>> Stashed changes
       </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_LI-0oRCfEeikg99Zrff8Ig"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LI-0ohCfEeikg99Zrff8Ig"/>
@@ -276,6 +284,7 @@
   <children xmi:type="notation:Shape" xmi:id="_b-5o4BCfEeikg99Zrff8Ig" type="Model_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_b-6P8BCfEeikg99Zrff8Ig" type="Model_NameLabel"/>
     <children xmi:type="notation:BasicCompartment" xmi:id="_b-6P8RCfEeikg99Zrff8Ig" type="Model_PackagedElementCompartment">
+<<<<<<< Updated upstream
       <children xmi:type="notation:Shape" xmi:id="_JjvLECB3Eei0q_R4ByErmQ" type="Class_Shape_CN">
         <children xmi:type="notation:DecorationNode" xmi:id="_JjxnUCB3Eei0q_R4ByErmQ" type="Class_NameLabel_CN"/>
         <children xmi:type="notation:DecorationNode" xmi:id="_JjxnUSB3Eei0q_R4ByErmQ" type="Class_FloatingNameLabel_CN">
@@ -328,6 +337,8 @@
         <element xmi:type="uml:Class" href="UML.uml#_PhsXQCB3Eei0q_R4ByErmQ"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PiCVgSB3Eei0q_R4ByErmQ" x="265" y="23" width="189" height="116"/>
       </children>
+=======
+>>>>>>> Stashed changes
       <styles xmi:type="notation:TitleStyle" xmi:id="_b-6P8hCfEeikg99Zrff8Ig"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b-6P8xCfEeikg99Zrff8Ig"/>
     </children>

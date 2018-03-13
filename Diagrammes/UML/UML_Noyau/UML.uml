@@ -26,12 +26,17 @@
           <ownedAttribute xmi:type="uml:Property" xmi:id="_dHN-MPraEee3S6bq_HImPQ" name="param" visibility="private" type="_nNPIwPrWEeenCKdSVeczSw"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_Xv4DsBCfEeikg99Zrff8Ig" name="Error"/>
+<<<<<<< Updated upstream
         <packagedElement xmi:type="uml:Class" xmi:id="_NrbZMCB3Eei0q_R4ByErmQ" name="LCD"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Model" xmi:id="_b-5B0BCfEeikg99Zrff8Ig" name="Application">
         <packagedElement xmi:type="uml:Class" xmi:id="_JjQC4CB3Eei0q_R4ByErmQ" name="Menu"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_PhsXQCB3Eei0q_R4ByErmQ" name="SAS"/>
       </packagedElement>
+=======
+      </packagedElement>
+      <packagedElement xmi:type="uml:Model" xmi:id="_b-5B0BCfEeikg99Zrff8Ig" name="Application"/>
+>>>>>>> Stashed changes
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_r9jIAPrUEeenCKdSVeczSw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r9jIAfrUEeenCKdSVeczSw" source="http://www.eclipse.org/uml2/2.0.0/UML">
