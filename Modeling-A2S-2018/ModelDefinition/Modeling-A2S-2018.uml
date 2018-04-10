@@ -3495,6 +3495,45 @@
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>
+          <association
+            Id="26478a9b-620d-4643-815b-08acd75e0829"
+            isDerived="false"
+            sourceEndRoleName="Appli"
+            targetEndRoleName="modbus"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="2064d671-e2c2-48ab-bc71-a5de385b5e41"
+              LastKnownName="modbus"
+              LastKnownLocation="Modeling-A2S-2018.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2379ba99-938d-4045-810c-12db4f75193a"
+                  name="Appli"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bf6b0ed5-99ce-4048-a0de-bfe584af8fbf"
+                  name="modbus"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
         </targetEnds>
         <ownedAttributesInternal>
           <property
@@ -3974,47 +4013,6 @@
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
-        <targetEnds>
-          <association
-            Id="4a3bbb44-f5b1-4726-a9e9-15a43b675d74"
-            isDerived="false"
-            sourceEndRoleName="ComRS485"
-            targetEndRoleName="Appli"
-            isLeaf="false"
-            isAbstract="false">
-            <classMoniker
-              Id="0c288b88-97fb-4ae4-b399-62a011d2e457"
-              LastKnownName="Appli"
-              LastKnownLocation="Modeling-A2S-2018.uml" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="e203be54-d415-4b5c-ae9d-aa72106d79f3"
-                  name="ComRS485"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false"
-                  isNavigableOwned="false" />
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="15d3a654-dcda-417f-b3d9-9885e1f855d7"
-                  name="Appli"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false" />
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-          </association>
-        </targetEnds>
         <ownedAttributesInternal>
           <property
             Id="bd4cc78a-e14a-49c7-89c6-801f68421801"
@@ -4517,6 +4515,47 @@
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="4c2c566c-fe85-4747-bc63-b879e78346e8"
+            isDerived="false"
+            sourceEndRoleName="modbus"
+            targetEndRoleName="ComRS485"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="3e8ed74e-0ec8-4ec0-840d-73763c7f33d6"
+              LastKnownName="ComRS485"
+              LastKnownLocation="Modeling-A2S-2018.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3c88cdf7-4e73-48af-902d-2b73705ea446"
+                  name="modbus"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a9572b43-feb1-4cb2-a548-90ec686cf9b2"
+                  name="ComRS485"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
         <ownedAttributesInternal>
           <property
             Id="4d13243e-2b2d-4d40-aa24-7548b1bea71d"

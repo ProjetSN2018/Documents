@@ -1765,6 +1765,22 @@
             </relationshipOwnedElementsInternal>
             <elementDefinition Id="66ba7951-f775-4b4f-b53a-e7ffb2676928" />
           </association>
+          <association Id="ecb98dd7-4917-4303-8315-b49b2e13299f" isDerived="false" sourceEndRoleName="Appli" targetEndRoleName="modbus" isLeaf="false" isAbstract="false">
+            <classMoniker Id="6fbbf63d-a772-44e7-a942-6a4ca7d3c016" LastKnownName="modbus" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1a07f8b6-72be-472e-97c0-2058b6380aa2" name="Appli" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2379ba99-938d-4045-810c-12db4f75193a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="48b94cb5-352d-43d0-abf8-ff4f3f26e405" name="modbus" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="bf6b0ed5-99ce-4048-a0de-bfe584af8fbf" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="26478a9b-620d-4643-815b-08acd75e0829" />
+          </association>
         </targetEnds>
         <ownedAttributesInternal>
           <property Id="b60656ef-3f3e-4d38-81d8-2880eecf4d1c" name="status" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
@@ -1997,24 +2013,6 @@
     <logicalClassDesignerModelHasTypes>
       <class Id="b463ac88-5327-47e3-8261-1b98c9feb045" name="ComRS485" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="3e8ed74e-0ec8-4ec0-840d-73763c7f33d6" />
-        <targetEnds>
-          <association Id="28ce1335-eb23-4a75-b608-5c7f79f0e034" isDerived="false" sourceEndRoleName="ComRS485" targetEndRoleName="Appli" isLeaf="false" isAbstract="false">
-            <classMoniker Id="cbda0152-653a-4a23-8605-f8056e219107" LastKnownName="Appli" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd Id="6049ba6f-464f-4a30-8a58-cec93dce36c7" name="ComRS485" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
-                  <elementDefinition Id="e203be54-d415-4b5c-ae9d-aa72106d79f3" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd Id="ea3d3e36-fe26-4c00-a8a1-5ec473de3040" name="Appli" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="15d3a654-dcda-417f-b3d9-9885e1f855d7" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-            <elementDefinition Id="4a3bbb44-f5b1-4726-a9e9-15a43b675d74" />
-          </association>
-        </targetEnds>
         <ownedAttributesInternal>
           <property Id="7ad4ea65-a617-413b-a8b1-a5f080ef4938" name="pWrite" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="bd4cc78a-e14a-49c7-89c6-801f68421801" />
@@ -2263,6 +2261,24 @@
     <logicalClassDesignerModelHasTypes>
       <class Id="6fbbf63d-a772-44e7-a942-6a4ca7d3c016" name="modbus" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="2064d671-e2c2-48ab-bc71-a5de385b5e41" />
+        <targetEnds>
+          <association Id="ec511c23-b438-4592-a5e2-bdd77dab9280" isDerived="false" sourceEndRoleName="modbus" targetEndRoleName="ComRS485" isLeaf="false" isAbstract="false">
+            <classMoniker Id="b463ac88-5327-47e3-8261-1b98c9feb045" LastKnownName="ComRS485" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dd7e0e3e-379e-4942-8217-6bb261c7cb98" name="modbus" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3c88cdf7-4e73-48af-902d-2b73705ea446" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b6ed2f16-f123-406a-8a2b-92421a06cc8c" name="ComRS485" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a9572b43-feb1-4cb2-a548-90ec686cf9b2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4c2c566c-fe85-4747-bc63-b879e78346e8" />
+          </association>
+        </targetEnds>
         <ownedAttributesInternal>
           <property Id="2e553b41-9c07-47f7-8641-3b96273ed3bf" name="crc" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="4d13243e-2b2d-4d40-aa24-7548b1bea71d" />
